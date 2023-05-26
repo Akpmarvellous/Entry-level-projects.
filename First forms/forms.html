@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a survey from using HTML and CSS</title>
+    <link rel="stylesheet" href="project to github.css">
+</head>
+<body>
+    <h1>GeeksForGeeks Survey Form</h1>
+    <!--create form-->
+    <form id="form">
+        <!--details-->
+        <div class="form control">
+            <label for="name" id="label-name">Name</label>
+            <br>
+            <!--input Type text-->
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <br>
+        <div class="form control">
+            <label for="email" id="label-email">Email</label>
+            <br>
+            <!--input Type text-->
+            <input type="text" id="email" placeholder="Enter your email">
+        </div>
+        <br>
+        <div class="form control">
+            <label for="Age" id="label-Age">Age</label>
+            <br>
+            <!--input Type text-->
+            <input type="text" id="Age" placeholder="Enter your age">
+        </div>
+        <br>
+        <div class="form control">
+            <label for="role" id="label-role">Which option best describe you?</label>
+            <br>
+            <!--dropdown options-->
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        
+        <div class="form-control">
+            <label>Would you recommend GeeksforGeeks to a friend?</label>
+            <br>
+            <!--input type radio button -->
+            <label for="recommed-1">
+                <input type="radio" id="recommend-1" name="recommend">yes</label>
+            </label>
+            <label for="recommend-2">
+                <input type="radio" id="recommend-2" name="recommend">No</input>
+            </label>
+            <label for="recommend-3">
+                <input type="radio" id="recommend-3" name="recommend">Maybe</input>
+            </label>
+        </div>
+        <br>
+
+        <div class="form-control">
+            <label>Languages and Frameworks known as<small> (Check all that apply)</small></label>
+            <!--input type checkbox-->
+            <label for="inp-1">
+                <br>
+                <input type="checkbox" name="inp">c</label>
+            </label>
+            <label for="inp-2">
+                <br>
+                <input type="checkbox" name="inp">C++</label>
+            </label><label for="inp-1">
+                <br>
+                <input type="checkbox" name="inp">C#</label>
+            </label>
+            <label for="inp-3">
+                <br>
+                <input type="checkbox" name="inp">Java</label>
+            </label>
+            <label for="inp-4">
+                <br>
+                <input type="checkbox" name="inp">Python</label>
+            </label>
+            <label for="inp-5">
+                <br>
+                <input type="checkbox" name="inp">JavaScript</label>
+            </label>
+            <label for="inp-6">
+                <br>
+                <input type="checkbox" name="inp">React</label>
+            </label>
+            <label for="inp-7">
+                <br>
+                <input type="checkbox" name="inp">Angular</label>
+            </label>
+            <label for="inp-7">
+                <br>
+                <input type="checkbox" name="inp">Django</label>
+            </label>
+        </label>
+        <label for="inp-7">
+            <br>
+            <input type="checkbox" name="inp">Spring</label>
+        </label>
+    </div>
+    <br>
+
+    <!--multi-line text input control-->
+    <button type="submit" value="submit">Submit</button>
+</form>
+
+    
+</body>
+</html>
